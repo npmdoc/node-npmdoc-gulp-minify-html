@@ -1,11 +1,13 @@
-# api documentation for  gulp-minify-html (v1.0.6)  [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html)
+# api documentation for  gulp-minify-html (v1.0.6)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-minify-html.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-minify-html) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html)
 #### Minify html with minimize.
 
 [![NPM](https://nodei.co/npm/gulp-minify-html.png?downloads=true)](https://www.npmjs.com/package/gulp-minify-html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screen-capture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp_minify_html_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build..beta..travis-ci.org/apidoc.html)
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-minify-html_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
 
-![package-listing](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screen-capture.npmPackageListing.svg)
+![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.npmPackageListing.svg)
+
+![npmPackageDependencyTree](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.npmPackageDependencyTree.svg)
 
 
 
