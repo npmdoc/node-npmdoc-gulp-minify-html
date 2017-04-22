@@ -1,9 +1,14 @@
-# api documentation for  gulp-minify-html (v1.0.6)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-minify-html.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-minify-html) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html)
+# npmdoc-gulp-minify-html
+
+#### api documentation for  gulp-minify-html (v1.0.6)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-minify-html.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-minify-html) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-minify-html)
+
 #### Minify html with minimize.
 
-[![NPM](https://nodei.co/npm/gulp-minify-html.png?downloads=true)](https://www.npmjs.com/package/gulp-minify-html)
+[![NPM](https://nodei.co/npm/gulp-minify-html.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-minify-html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-minify-html_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-minify-html/build/screenCapture.npmPackageListing.svg)
 
@@ -46,29 +51,18 @@
     "main": "./index.js",
     "maintainers": [
         {
-            "name": "murphydanger",
-            "email": "jonathan@gnobel.com"
+            "name": "murphydanger"
         }
     ],
     "name": "gulp-minify-html",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "scripts": {
         "test": "./node_modules/mocha/bin/mocha -u tdd -R list --globals opts"
     },
-    "version": "1.0.6"
+    "version": "1.0.6",
+    "bin": {}
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-minify-html](#apidoc.module.gulp-minify-html)
-
-
-
-# <a name="apidoc.module.gulp-minify-html"></a>[module gulp-minify-html](#apidoc.module.gulp-minify-html)
 
 
 
