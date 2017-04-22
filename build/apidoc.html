@@ -59,12 +59,58 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-minify-html">module gulp-minify-html</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-minify-html.gulp-minify-html">
+            function <span class="apidocSignatureSpan"></span>gulp-minify-html
+            <span class="apidocSignatureSpan">(opt)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-minify-html" id="apidoc.module.gulp-minify-html">module gulp-minify-html</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-minify-html.gulp-minify-html" id="apidoc.element.gulp-minify-html.gulp-minify-html">
+        function <span class="apidocSignatureSpan"></span>gulp-minify-html
+        <span class="apidocSignatureSpan">(opt)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">gulp-minify-html = function (opt){
+
+  function minimize (file, encoding, callback) {
+    if (file.isNull()) {
+      return callback(null, file);
+    }
+
+    if (file.isStream()) {
+      return callback(new gutil.PluginError(&#x27;gulp-minify-html&#x27;, &#x27;doesn\&#x27;t support Streams&#x27;));
+    }
+
+    var minimize = new Minimize(opt || {} );
+
+    minimize.parse(file.contents.toString(), function (err, data) {
+      if (err) {
+        return callback(new gutil.PluginError(&#x27;gulp-minify-html&#x27;, err));
+      }
+
+      file.contents = new Buffer(data);
+      callback(null, file);
+    });
+  }
+
+  return through.obj(minimize);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
